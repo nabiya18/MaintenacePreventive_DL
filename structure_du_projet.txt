@@ -1,0 +1,17 @@
+project/
+│
+├── data/
+│   ├── maintenance_predictive_POP.csv  # Le dataset que tu as téléchargé
+│
+├── src/
+│   ├── prepare_data.py  # Prétraitement des données (création des séquences temporelles)
+│   ├── model.py        # Création et entraînement du modèle LSTM (RNN)
+│   ├── train.py        # Script principal pour entraîner le modèle
+│   ├── evaluate.py     # Évaluation du modèle sur les données de test
+│
+├── results/
+│   ├── loss_accuracy_plots.png  # Graphiques de perte et précision
+│   ├── maintenance_predictive_model.h5  # Modèle enregistré après l'entraînement
+│
+├── README.md           # Explication du projet
+└── requirements.txt    # Liste des dépendances
